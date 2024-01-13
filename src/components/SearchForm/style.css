@@ -1,0 +1,37 @@
+.search-input {
+  width: 300px;
+  border: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-button {
+  background-image: url(Image/loop2.png);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 0rem;
+  border: none;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+}
+
+.search-options {
+  list-style-type: none;
+}
+
+.search-options li:hover {
+  background-color: var(--background_hover-color);
+}
