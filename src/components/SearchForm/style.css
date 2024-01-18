@@ -31,7 +31,20 @@
 .search-options {
   list-style-type: none;
 }
+.search-options-container {
+  display: none;
+}
+
+.search-options-container__enabled {
+  display: block;
+}
 
 .search-options li:hover {
   background-color: var(--background_hover-color);
+}
+
+.search-container:has(.search-options-container__enabled) {
+  outline: 2px solid black;
+  border-radius: 0.5em;
+  padding: 10px;
 }
