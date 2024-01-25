@@ -1,0 +1,62 @@
+
+.payment-product {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  margin: 0 20px 20px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 30%;
+  justify-content: center;
+  background-color: rgb(238, 255, 255);
+}
+
+.payment-product button {
+  margin: 10px;
+  border-radius: 5px;
+  transition: transform 0.05s;
+}
+
+.payment-product button:active {
+  transform: translateY(3px);
+}
+
+.purchase-buttons {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.purchase-buttons button{
+  background-color: var(--card_product-color);
+  height: 2.5rem;
+  width: 90%;
+  font-size: 110%;
+}
+
+.purchase-buttons span {
+  color: red;
+  font-size: 140%;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.product-quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-quantity button {
+  background-color: rgb(238, 255, 255);
+  border: none;
+  height: 2.5rem;
+  width: 60%;
+  font-size: 130%;
+}
+
+.product-quantity span {
+  font-size: 130%;
+}

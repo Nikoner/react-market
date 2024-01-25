@@ -1,25 +1,30 @@
-.right-icons {
+.navigation-icons {
   margin-right: 1em;
+}
+
+.icons-container {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.right-icons img {
+.navigation-icons img {
   height: 60%;
   padding: 15px;
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.right-icons img:hover {
+.navigation-icons img:hover {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-.right-icons img:active {
+.navigation-icons img:active {
   transform: translateY(2px);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
-.icons-designations {
+.icons-header {
+  display: block;
   height: 9vh;
 }

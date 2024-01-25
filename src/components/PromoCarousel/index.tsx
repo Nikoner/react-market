@@ -1,5 +1,9 @@
 import { useRef } from 'react';
 import './style.css'
+import sale5 from '../../assets/images/sale5.jpg';
+import sale6 from '../../assets/images/sale6.jpg';
+import sale7 from '../../assets/images/sale7.jpg';
+import sale8 from '../../assets/images/sale8.jpg';
 
 const Carousel = () => {
   const container = useRef<HTMLDivElement>(null);
@@ -20,16 +24,16 @@ const Carousel = () => {
     <section className="slider">
       <div className="scroll-container" ref={container}>
         <div className="scroll-item">
-          <img src="../image/2sale5.jpg" alt="Image 1" />
+          <img src={sale5} alt="Image 1" />
         </div>
         <div className="scroll-item">
-          <img src="Image/2sale6.jpg" alt="Image 2" />
+          <img src={sale6} alt="Image 2" />
         </div>
         <div className="scroll-item">
-          <img src="Image/2sale7.jpg" alt="Image 3" />
+          <img src={sale7} alt="Image 3" />
         </div>
         <div className="scroll-item">
-          <img src="Image/2sale8.jpg" alt="Image 4" />
+          <img src={sale8} alt="Image 4" />
         </div>
       </div>
       <div className="scroll-button-container">

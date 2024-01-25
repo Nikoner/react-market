@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './style.css';
+import loop from '../../assets/images/loop2.png';
 const SearchForm = () => {
 
   const [isActive, setIsActive] = useState(false);
@@ -25,8 +26,9 @@ const SearchForm = () => {
         onFocus={onSearchInputFocus} 
         onBlur={onSearchInputBlur}
       />
-      <button type="submit" className="search-button"></button>
-      {/* <!-- &#x1F50D --> */}
+      <button type="submit" className="search-button">
+        <img src={loop} alt="loop" className="loop"/>
+      </button>
     </div>
     <div className={isActive ? "search-options-container__enabled" : "search-options-container"}>
       <h5>История: </h5>
