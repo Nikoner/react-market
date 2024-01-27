@@ -1,11 +1,3 @@
-:root {
-  --header-color: rgb(131, 208, 182);
-  --card_product-color: rgb(200, 214, 232);
-  --button_hover-color: rgb(147, 196, 180);
-  --background_hover-color: #e6e6e6;
-  --background-muter-index: 999;
-}
-
 .footer {
   text-align: center;
   padding: 10px;
@@ -16,7 +8,7 @@
   flex-direction: column;
 }
 
-.footer p {
+.footer-copyright {
   padding: 10px;
   font-size: 120%;
 }

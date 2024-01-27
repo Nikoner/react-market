@@ -43,7 +43,7 @@ const Footer = () => {
     </div>
     <SocialMedia />
     <div>
-      <p>© 2023 FOX Market. Все права защищены.</p>
+      <p className="footer-copyright">© 2023 FOX Market. Все права защищены.</p>
     </div>
     </footer>
   )
