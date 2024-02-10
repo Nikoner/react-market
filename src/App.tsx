@@ -1,19 +1,19 @@
-import './App.css'
-import { Route, Routes } from 'react-router-dom';
-import Home from './pages/HomePage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Basket from './pages/BasketPage';
-import Login from './components/Login';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import BasketPage from "./pages/BasketPage";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/basket' element={<Basket />} />
-        <Route path='/login' element={<Login />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/basket" element={<BasketPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </>
