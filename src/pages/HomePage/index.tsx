@@ -1,7 +1,7 @@
 import ProductList from '../../components/ProductList';
 import PromoCarousel from '../../components/PromoCarousel';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <PromoCarousel />
@@ -10,4 +10,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default HomePage;
