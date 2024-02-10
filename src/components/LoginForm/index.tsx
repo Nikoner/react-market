@@ -1,6 +1,6 @@
 import './style.css';
 
-const Login = () => {
+const LoginForm = () => {
 
   return (
     <div className="container">
@@ -18,4 +18,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default LoginForm;
