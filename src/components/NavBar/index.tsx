@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import basket from "../../assets/images/basket.png"
-import favorites from "../../assets/images/favorites.png"
 import account from "../../assets/images/account.png"
+import basket from "../../assets/images/basket1.png"
+import favorites from "../../assets/images/favorites.png"
 import './style.css'
 
 const NavBar = () => {

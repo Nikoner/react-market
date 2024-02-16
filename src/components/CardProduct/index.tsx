@@ -1,4 +1,5 @@
 import strawberry from '../../assets/images/strawberry.png';
+import Payment from './Payment';
 import './style.css';
 
 const Basket = () => {
@@ -12,6 +13,7 @@ const Basket = () => {
           <span className='product-description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates iste minus laudantium incidunt facere perferendis velit esse nesciunt beatae minima, sequi pariatur molestias sapiente non odio mollitia repellat corrupti sunt.</span>
         </div>
       </div>
+      <Payment />
     </div>
   )
 }
