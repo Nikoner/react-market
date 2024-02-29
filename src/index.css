@@ -11,6 +11,8 @@ button, input {
 
 body {
   width: auto;
-  background-color: rgb(236, 247, 247);
+  /* background-color: rgb(236, 247, 247); */
+  background-color: var(--background-page);
+
   font-family: 'Roboto', sans-serif;
 }
