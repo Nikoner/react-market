@@ -5,7 +5,7 @@ const Basket = () => {
 
   return (
     <div className="basket-container">
-      <div className="product-details">
+      <div className="product-basket-details">
         <img src={strawberry} alt="strawberry" />
         <div className="product-details-info">
           <h2>Strawberry</h2>

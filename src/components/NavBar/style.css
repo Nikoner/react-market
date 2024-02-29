@@ -41,6 +41,6 @@
   box-sizing     : border-box;
   text-decoration: none;
   height         : 100%;
-  padding        : 0 0.4em;
-  margin         : 0;
+  padding        : 0 1em;
+  margin         : 0 0.2em;
 }
