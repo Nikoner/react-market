@@ -8,7 +8,7 @@
   padding: 20px;
 } */
 
-.product-content {
+.product-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, minmax(0, 1fr));
@@ -50,6 +50,9 @@
   border-radius: 5px;
   padding: 10px;
   transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .product-details h3 {

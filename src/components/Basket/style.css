@@ -1,18 +1,18 @@
-.basket-container {
+/* .basket-container {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: column;
+  gap: 0;
+} */
 
 .product-basket-details {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  justify-content: space-between;
+  padding: 0 10px;
   border-radius: 20px;
-  border: solid 1px black;
-  margin: 0 20px 20px 20px;
+  margin: 0.2em 0.8em;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: var(--card_product-color);
-  width: 70%;
+  background-color: var(--background-page);
 }
 
 .product-details-info {
@@ -21,17 +21,92 @@
   justify-content: center;
 }
 
-.product-details-info h2 {
+.product-details-info h3 {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .product-description {
-  padding: 30px;
+  padding: 0.9em;
   font-size: 20px;
 }
 
 .product-basket-details img {
-  width: 30%;
+  width: 10%;
+}
+
+.quantity-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 110%;
+}
+
+.quantity-controls button {
+  border: none;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  background-color: var(--button_hover-color);
+}
+
+.quantity-controls button:hover {
+  background-color: #e0e0e0;
+}
+
+.quantity-basket {
+  display: flex;
+  align-items: center;
+  font-size: 120%;
+  padding: 0 0.8em;
+}
+
+.product-price-basket {
+  display: flex;
+  justify-content: end;
+  padding: 0.5em 0;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.total-price-basket {
+  font-weight: bold;
+  font-size: 150%;
+  border-radius: 50%;
+  font-size: 1.5em;
+}
+
+.purchase-button-basket {
+  font-size: 130%;
+  width: 14em;
+  background-color: var(--header-color);
+  border-radius: 5px;
+  padding: 0.5em;
+  border: none;
+}
+
+.purchase-basket {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket-purchase-button-container {
+  padding: 1em;
+}
+
+.basket-products-cart {
+  border: 1px solid black;
+  margin: 0 5em;
+  border-radius: 20px;
 }

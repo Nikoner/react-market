@@ -12,18 +12,9 @@
 // export default ProductList;
 
 import { useEffect, useState } from 'react';
+import ProductModel from '../../types/models/ProductModel.interface';
 import './style.css';
 
-interface ProductModel {
-  id: number;
-  title: string;
-  description: string;
-  price: number;
-  rating: number;
-  brand: string;
-  category: string;
-  image: string;
-}
 const Product = () => {
   const [products, setProducts] = useState<ProductModel[]>([]);
 
@@ -42,7 +33,7 @@ const Product = () => {
 
   return (
 
-  <div className="product-content">
+  <div className="product-list">
   {products.map((product) => (
     <div className="product" key={product.id}>
       <div className="product-details">

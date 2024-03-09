@@ -8,3 +8,5 @@ interface ProductModel {
   category: string;
   image: string;
 }
+
+export default ProductModel;
